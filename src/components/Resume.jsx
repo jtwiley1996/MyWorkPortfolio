@@ -12,10 +12,10 @@ const downloadFileAtURL = (url) => {
     aTag.remove()
 }
   return (
-    <div className='max-w-[1200px] mx-auto bg-black sm:py-20 p-5' id="resume">
+    <div className='max-w-[1200px] mx-auto sm:py-20 p-5' id="resume">
       <div className='text-center'>
         <h2 className='text-4xl text-white font-bold leading-tight primary-color mb-10'>Contact Me</h2>
-        <h3 className='text-center ml-3'><button onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}className='download shadow-button px-6 py-3 rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-yellow-500 to-red-600 text-white hover:border-none'>Download Resume</button></h3>
+        <h3 className='text-center ml-3'><button onClick={()=>{downloadFileAtURL(PDF_FILE_URL)}}className='download shadow-button px-6 py-3 rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-indigo-500 to-purple-600 text-white hover:border-none'>Download Resume</button></h3>
       </div>
 
       <div className='md:grid md:grid-cols-2  mt-10'>
