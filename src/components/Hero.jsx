@@ -21,7 +21,7 @@ const Hero = () => {
 
     <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[275px]'>
   <div style={{ overflow: 'hidden', width: '100%', height: '80%' }}>
-    <img className="shadow stay-shadow" src={heroImage} alt="myimage" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+    <img className="rounded-3xl" src={heroImage} alt="myimage" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
   </div>
 </div>
 

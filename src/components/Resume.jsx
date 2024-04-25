@@ -26,7 +26,6 @@ const downloadFileAtURL = (url) => {
             <li>CSS</li>
             <li>Javascript</li>
             <li>JQuery</li>
-            <li>Responsive design</li>
             <li>React</li>
             <li>Bootstrap</li>
             <li>Handlebars</li>
