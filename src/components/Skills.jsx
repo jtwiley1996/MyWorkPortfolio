@@ -10,7 +10,7 @@ import mongodb from '../assets/mongodb.svg'
 
 const Skills = () => {
   return (
-    <div className='border border-gray-600 text-gray-400 md:h-[150px] max-w-[1200px] md:mx-auto grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center mx-2'>
+    <div className=' text-gray-400 md:h-[150px] max-w-[1200px] md:mx-auto grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center mx-2'>
 
         <h2 className='text-gray-700 text-2xl md:text-4xl font-bold m-4'>
             My <br/> Tech <br/> Stack
