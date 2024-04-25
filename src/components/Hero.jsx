@@ -19,7 +19,7 @@ const Hero = () => {
     <div>
     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 dark:bg-white'>
 
-    <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[275px]'>
+    <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[300px]'>
   <div style={{ overflow: 'hidden', width: '100%', height: '80%' }}>
     <img className="rounded-3xl" src={heroImage} alt="myimage" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
   </div>
