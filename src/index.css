@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-color{
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600 inline-block;
+}
+
+body{
+  background-color: #262626;
+}
+
+.bg-primary-color{
+  @apply bg-gradient-to-r from-indigo-500 to-purple-600 inline-block;
+}
+
+.shadow:hover{
+  filter: drop-shadow(0 0 2rem rgb(220, 150, 20));
+  cursor: pointer;
+}
+
+.stay-shadow{
+  filter: drop-shadow(0 0 2rem rgb(220, 83, 20));
+}
+
+.shadow-button:hover{
+  filter: drop-shadow(0 0 0.70rem rgb(220, 150, 20));
+  cursor: pointer;
+}
+
+.text-shadow:hover {
+  filter: drop-shadow(0 0 0.70rem rgb(220, 150, 20));
+  cursor: pointer;
+  color:white;
+}
+
+.skill-shadow:hover{
+  filter: drop-shadow(0 0 0.70rem rgb(245, 245, 245));
+  cursor: pointer;
+}
+
+.contact-shadow:hover{
+  color:rgb(206, 206, 206);
+  filter: drop-shadow(0 0 0.70rem rgb(245, 245, 245));
+  cursor: pointer;
+}
+
+.shadow-pic:hover{
+  filter: drop-shadow(0 0 0.90rem rgb(220, 150, 20));
+  cursor: pointer;
+}
+
+.shadow-input:hover{
+  filter: drop-shadow(0 0 0.6rem rgba(220, 150, 20, 0.644));
+  cursor: pointer;
+}
+
+.work-live:hover{
+  @apply bg-gradient-to-r from-indigo-500 to-purple-600 inline-block;
+  filter: drop-shadow(0 0 0.90rem rgba(220, 83, 20, 0.637));
+  color:black;
+}
+
+.git-shadow:hover{
+  color:rgb(255, 255, 255);
+  filter: drop-shadow(0 0 0.90rem rgba(255, 176, 7, 0.76));
+}
+
+.download{
+  filter: drop-shadow(0 0 3rem rgb(245, 245, 245));
+}
+
+li::marker {
+  color: rgb(255, 255, 255);
+}
