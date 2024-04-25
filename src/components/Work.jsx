@@ -1,5 +1,6 @@
 import React from 'react'
 import project1 from '../assets/project1.png'
+import project2 from '../assets/project2.png'
 import { AiFillGithub } from 'react-icons/ai';
 
 const Work = () => {
@@ -24,6 +25,21 @@ const Work = () => {
                       </div>
                   </div>
               </div>
+              <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+                <img src={project2} alt="project2"/>
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>RecipeHub</span>
+                    <div className='pt-8 text-center flex flex-between'>
+                        <a href="https://gwennr-t.github.io/RecipeHub/" target="_blank" rel="noreferrer">
+                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+                        </a>
+                        <a href="https://github.com/gwennr-t/RecipeHub" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
     )}
