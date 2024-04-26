@@ -1,4 +1,6 @@
 import {React} from 'react'
+import resume from '../assets/Resume.pdf'
+
 
 const PDF_FILE_URL = 'Resume.pdf'
 const Resume = () => {
@@ -51,7 +53,12 @@ const downloadFileAtURL = (url) => {
           </ul>
         </div>
       </div>
+      <div className = "container-fluid content text-center mt-6 text-white">
+            <h2>Resume</h2>
+             <embed src={resume} width='800px' height='1200px' style={{ margin: "20px auto 0" }} ></embed>
+            </div>
     </div>
+    
   )
 }
 export default Resume
