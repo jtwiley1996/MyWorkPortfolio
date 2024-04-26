@@ -12,7 +12,7 @@ const Navbar = () => {
    return (
     <div className='h-[100px] dark:bg-white text-gray-400 max-w-[1200px] mx-auto flex justify-between items-center'>
       
-      <h1 className='text-3xl font-bold primary-color ml-4'>Julian T Wiley</h1>
+      <h1 className='text-3xl font-bold primary-color ml-4'><Link to="/" className="nav-link">Julian T Wiley</Link></h1>
       <ul className='hidden md:flex font-bold'>
           <li  className='p-5 text-shadow hover:font-bold'><Link to="/" className={currentPage === '/' ? 'nav-link active primary-color' : 'nav-link'}> Home</Link></li>
           <li className='p-5 text-shadow hover:font-bold'><Link to="/About" className={currentPage === '/About' ? 'nav-link active primary-color' : 'nav-link'}> About</Link></li>
