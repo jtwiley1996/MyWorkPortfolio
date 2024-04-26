@@ -12,9 +12,7 @@ const Skills = () => {
   return (
     <div className=' text-gray-400 md:h-[150px] max-w-[1200px] md:mx-auto grid grid-cols-5 place-items-center md:flex md:justify-between md:items-center mx-2'>
 
-        <h2 className='text-gray-700 text-2xl md:text-4xl font-bold m-4'>
-            My <br/> Tech <br/> Stack
-        </h2>
+
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img className="skill-shadow" src={html} alt="html" width={100} height={100}/>
@@ -31,14 +29,16 @@ const Skills = () => {
             <p className='mt-2'>Javascript</p>
         </div>
 
-        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
-            <img className="skill-shadow" src={tailwind} alt="tailwind" width={100} height={100}/>
-            <p className='mt-2'>Tailwind</p>
-        </div>
+
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img className="skill-shadow" src={react} alt="react" width={100} height={100}/>
             <p className='mt-2'>React</p>
+        </div>
+
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img className="skill-shadow" src={vite} alt="Vite" width={100} height={100}/>
+            <p className='mt-2'>Vite</p>
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
@@ -52,9 +52,10 @@ const Skills = () => {
         </div>
 
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
-            <img className="skill-shadow" src={vite} alt="Vite" width={100} height={100}/>
-            <p className='mt-2'>Vite</p>
+            <img className="skill-shadow" src={tailwind} alt="tailwind" width={100} height={100}/>
+            <p className='mt-2'>Tailwind</p>
         </div>
+
       
     </div>
   )

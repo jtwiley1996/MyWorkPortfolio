@@ -31,19 +31,18 @@ const downloadFileAtURL = (url) => {
             <li>Handlebars</li>
             <li>TailwindCSS</li>
             <li>Figma</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe Photoshop</li>
+            <li>Canva</li>
           </ul>
         </div>
 
         <div className='text-white pt-5 text-center'>
           <h1 className='primary-color text-3xl font-bold mb-5'>Back-end Proficiencies</h1>
           <ul className='text-xl text-left ml-16 md:ml-40' style={{ listStyleType: 'circle' }}>
-            <li>APIs</li>
-            <li>Node</li>
+            <li>Web APIs</li>
+            <li>Node.js</li>
             <li>Express</li>
-            <li>MySQL, Sequelize</li>
-            <li>MongoDB, Mongoose</li>
+            <li>MySQL/Sequelize</li>
+            <li>MongoDB/Mongoose</li>
             <li>Rest</li>
             <li>GraphQL</li>
             <li>DevTools</li>
