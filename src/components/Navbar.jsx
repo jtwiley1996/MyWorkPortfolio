@@ -16,7 +16,7 @@ const Navbar = () => {
       <ul className='hidden md:flex font-bold'>
           <li  className='p-5 text-shadow hover:font-bold'><Link to="/" className={currentPage === '/' ? 'nav-link active primary-color' : 'nav-link'}> Home</Link></li>
           <li className='p-5 text-shadow hover:font-bold'><Link to="/About" className={currentPage === '/About' ? 'nav-link active primary-color' : 'nav-link'}> About</Link></li>
-          <li className='p-5 text-shadow hover:font-bold'><Link to="/Work" className={currentPage === '/Work' ? 'nav-link active primary-color' : 'nav-link'}>Work</Link></li>
+          <li className='p-5 text-shadow hover:font-bold'><Link to="/Work" className={currentPage === '/Work' ? 'nav-link active primary-color' : 'nav-link'}>Portfolio</Link></li>
           <li className='p-5 text-shadow hover:font-bold'><Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active primary-color' : 'nav-link'}>Contact</Link></li>
           <li className='p-5 text-shadow hover:font-bold'><Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active primary-color' : 'nav-link'}>Resume</Link></li>
       </ul>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <ul className='p-8 text-2xl font-bold'>
               <li className='p-2 text-shadow hover:font-bold'><Link to="/" className={currentPage === '/' ? 'nav-link active primary-color' : 'nav-link'}>Home</Link></li>
               <li className='p-2 text-shadow hover:font-bold'><Link to="/About" className={currentPage === '/About' ? 'nav-link active primary-color' : 'nav-link'}>About</Link></li>
-              <li className='p-2 text-shadow hover:font-bold'><Link to="/Work" className={currentPage === '/Work' ? 'nav-link active primary-color' : 'nav-link'}>Work</Link></li>
+              <li className='p-2 text-shadow hover:font-bold'><Link to="/Work" className={currentPage === '/Work' ? 'nav-link active primary-color' : 'nav-link'}>Portfolio</Link></li>
               <li className='p-2 text-shadow hover:font-bold'><Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active primary-color' : 'nav-link'}>Contact</Link></li>
               <li className='p-2 text-shadow hover:font-bold'><Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active primary-color' : 'nav-link'}>Resume</Link></li>
 
