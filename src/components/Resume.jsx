@@ -47,6 +47,7 @@ const downloadFileAtURL = (url) => {
             <li>GraphQL</li>
             <li>DevTools</li>
             <li>Insomnia</li>
+            <li>Git</li>
           </ul>
         </div>
       </div>
