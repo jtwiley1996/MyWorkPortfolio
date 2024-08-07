@@ -4,6 +4,7 @@ import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
 import project5 from '../assets/project5.png'
+import project6 from '../assets/project6.png'
 import { AiFillGithub } from 'react-icons/ai';
 
 const Work = () => {
@@ -73,6 +74,15 @@ const Work = () => {
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
                         </a>
                         <a href="https://github.com/jtwiley1996/ReactTaskManager" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+                    </div>
+                </div>
+            </div>
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+                <img src={project6} alt="project6"/>
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Data Analysis Python</span>
+                    <div className='pt-8 text-center flex flex-between'>
+                        <a href="https://github.com/jtwiley1996/Python-Project" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
                     </div>
                 </div>
             </div>
