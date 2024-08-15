@@ -6,6 +6,7 @@ import tailwind from '../assets/tailwind.png'
 import react from '../assets/react.png'
 import node from '../assets/node.png'
 import vite from '../assets/vite.svg'
+import solidity from '../assets/solidity.svg'
 import mongodb from '../assets/mongodb.svg'
 
 const Skills = () => {
@@ -54,6 +55,11 @@ const Skills = () => {
         <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
             <img className="skill-shadow" src={tailwind} alt="tailwind" width={100} height={100}/>
             <p className='mt-2'>Tailwind</p>
+        </div>
+
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]'>
+            <img className="skill-shadow" src={solidity} alt="solidity" width={100} height={100}/>
+            <p className='mt-2'>Solidity</p>
         </div>
 
       
