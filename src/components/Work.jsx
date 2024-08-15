@@ -6,6 +6,7 @@ import project4 from '../assets/project4.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
+import project8 from '../assets/project8.png'
 import { AiFillGithub } from 'react-icons/ai';
 
 const Work = () => {
@@ -93,6 +94,15 @@ const Work = () => {
                     <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Playwright Testing Suite</span>
                     <div className='pt-8 text-center flex flex-between'>
                         <a href="https://github.com/jtwiley1996/Playwright-Project" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+                    </div>
+                </div>
+            </div>
+            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+                <img src={project8} alt="project8"/>
+                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Token Contract Solidity</span>
+                    <div className='pt-8 text-center flex flex-between'>
+                        <a href="https://github.com/jtwiley1996/Token-Solidity-Contract" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
                     </div>
                 </div>
             </div>
