@@ -7,6 +7,7 @@ import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
 import project8 from '../assets/project8.png'
+import project9 from '../assets/project9.png'
 import { AiFillGithub } from 'react-icons/ai';
 
 const Work = () => {
@@ -19,93 +20,106 @@ const Work = () => {
   
           <div className='grid sm:grid-cols-2  gap-4'>
   
-              <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                  <img src={project1} alt="project1"/>
-                  <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                      <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Weather App</span>
-                      <div className='pt-8 text-center flex flex-between'>
-                          <a href="https://jtwiley1996.github.io/Weather-App/" target="_blank" rel="noreferrer">
-                              <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                          </a>
-                          <a href="https://github.com/jtwiley1996/Weather-App" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
-                      </div>
-                  </div>
-              </div>
-              <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project2} alt="project2"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>RecipeHub</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://gwennr-t.github.io/RecipeHub/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                        </a>
-                        <a href="https://github.com/gwennr-t/RecipeHub" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project3} alt="project3"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Advice Generator</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://jtwiley1996.github.io/advice-generator-app-main/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                        </a>
-                        <a href="https://github.com/jtwiley1996/advice-generator-app-main" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project4} alt="project4"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>KGC Sandwiches</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://evening-forest-36979-4e06f52f5993.herokuapp.com/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                        </a>
-                        <a href="https://github.com/jtwiley1996/KGC-Sandwiches" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project5} alt="project5"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>React Task Manager</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://react-task-manager-jw.netlify.app/" target="_blank" rel="noreferrer">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
-                        </a>
-                        <a href="https://github.com/jtwiley1996/ReactTaskManager" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project6} alt="project6"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Data Analysis Python</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://github.com/jtwiley1996/Python-Project" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project7} alt="project7"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Playwright Testing Suite</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://github.com/jtwiley1996/Playwright-Project" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
-            <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
-                <img src={project8} alt="project8"/>
-                <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-                    <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Token Contract Solidity</span>
-                    <div className='pt-8 text-center flex flex-between'>
-                        <a href="https://github.com/jtwiley1996/Token-Solidity-Contract" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
-                    </div>
-                </div>
-            </div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project9} alt="project9"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Next/React Product Landing Page</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://lumaconnectslb.netlify.app/" target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+            </a>
+            <a href="https://github.com/jtwiley1996/next-react-product-landing" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+</div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project8} alt="project8"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Token Contract Solidity</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://github.com/jtwiley1996/Token-Solidity-Contract" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+</div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project7} alt="project7"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Playwright Testing Suite</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://github.com/jtwiley1996/Playwright-Project" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project6} alt="project6"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Data Analysis Python</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://github.com/jtwiley1996/Python-Project" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project5} alt="project5"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>React Task Manager</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://react-task-manager-jw.netlify.app/" target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+            </a>
+            <a href="https://github.com/jtwiley1996/ReactTaskManager" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project4} alt="project4"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>KGC Sandwiches</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://evening-forest-36979-4e06f52f5993.herokuapp.com/" target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+            </a>
+            <a href="https://github.com/jtwiley1996/KGC-Sandwiches" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project3} alt="project3"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Advice Generator</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://jtwiley1996.github.io/advice-generator-app-main/" target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+            </a>
+            <a href="https://github.com/jtwiley1996/advice-generator-app-main" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project2} alt="project2"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>RecipeHub</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://gwennr-t.github.io/RecipeHub/" target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+            </a>
+            <a href="https://github.com/gwennr-t/RecipeHub" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow '/></a>
+        </div>
+    </div>
+</div>
+<div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
+    <img src={project1} alt="project1"/>
+    <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>Weather App</span>
+        <div className='pt-8 text-center flex flex-between'>
+            <a href="https://jtwiley1996.github.io/Weather-App/" target="_blank" rel="noreferrer">
+                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
+            </a>
+            <a href="https://github.com/jtwiley1996/Weather-App" target="_blank" rel="noreferrer"><AiFillGithub className='text-6xl ml-5 text-white git-shadow'/></a>
+        </div>
+    </div>
+</div>
+
         </div>
     </div>
     )}
