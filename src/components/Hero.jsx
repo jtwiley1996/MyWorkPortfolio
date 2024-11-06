@@ -44,7 +44,7 @@ const Hero = () => {
             </h1>
 
             <p className='text-white sm:text-lg my-6 lg:text-xl'>
-                My name is Julian Wiley and I have over 1 year of experience in web development. 
+                My name is Julian Wiley and I have over 2 years of experience in web development. 
             </p>
 
             <div className='my-8 text-center md:text-left'>
