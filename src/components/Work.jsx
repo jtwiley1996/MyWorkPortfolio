@@ -23,7 +23,7 @@ const Work = () => {
           <div className='transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#040c16] group rounded-md flex justify-center items-center h-[300px] bg-cover relative'>
     <img src={project10} alt="project10"/>
     <div className='opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center'>
-        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>NSOS fullstack app</span>
+        <span className='text-2xl md:text-3xl font-extrabold text-white tracking-wider'>NSOS Full Stack app</span>
         <div className='pt-8 text-center flex flex-between'>
             <a href="https://northshoreorganicservice.com" target="_blank" rel="noreferrer">
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg work-live'>Live</button>
